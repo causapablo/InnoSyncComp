@@ -7,6 +7,22 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      mlg: "1130px",
+      xl: "1200px",
+      "2xl": "1660px",
+    },
+    colors: {
+      white: "#ffffff",
+      goldenrod: "#daa520",
+      honoluluBlue: "#0074b2",
+      oxfordBlue: "#001f3f",
+      jet: "#333333",
+
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -15,6 +31,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 export default config
