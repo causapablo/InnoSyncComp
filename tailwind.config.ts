@@ -17,6 +17,7 @@ const config: Config = {
     },
     colors: {
       white: "#ffffff",
+      gray: "#F0F1F5",
       goldenrod: "#daa520",
       honoluluBlue: "#0074b2",
       oxfordBlue: "#001f3f",
