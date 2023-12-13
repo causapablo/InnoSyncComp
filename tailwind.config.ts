@@ -21,7 +21,13 @@ const config: Config = {
       honoluluBlue: "#0074b2",
       oxfordBlue: "#001f3f",
       jet: "#333333",
-
+      black : "#000000"
+    },
+    fontFamily:{
+      Dancing : ['Dancing Script', 'cursive'],
+      SubTitle : ['Poppins', 'sans-serif'],
+      Grotesk : ['Space Grotesk', 'sans-serif'],
+      Title  : ['Work Sans', 'sans-serif']
     },
     extend: {
       backgroundImage: {
