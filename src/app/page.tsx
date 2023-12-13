@@ -1,11 +1,11 @@
-import Landing from "../components/Home/Home"
+import Image from 'next/image'
+import Landing from "../components/Landing/Landing"
+
 
 export default function Home() {
   return (
     <main>
-
-      Hola Mundo
-        Esto es un componente de React.
+      <Landing />
     </main>
   )
 }
